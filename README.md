@@ -65,35 +65,37 @@ This script will automatically generate a dataset suitable for training (70% for
 
 이 코드는 학습에 적합한 데이터셋을 자동으로 생성합니다 (훈련용 70%, 검증용 15%, 테스트용 15%)
 
+<pre>
+```
 celestial_dataset/
 ├── train/
-│   ├── earth/
-│   ├── jupiter/
-│   ├── mars/
-│   ├── moon/
-│   ├── neptune/
-│   ├── saturn/
-│   └── uranus/
-│
+│ ├── earth/
+│ ├── jupiter/
+│ ├── mars/
+│ ├── moon/
+│ ├── neptune/
+│ ├── saturn/
+│ └── uranus/
 ├── val/
-│   ├── earth/
-│   ├── jupiter/
-│   ├── mars/
-│   ├── moon/
-│   ├── neptune/
-│   ├── saturn/
-│   └── uranus/
-│
+│ ├── earth/
+│ ├── jupiter/
+│ ├── mars/
+│ ├── moon/
+│ ├── neptune/
+│ ├── saturn/
+│ └── uranus/
 └── test/
-    ├── earth/
-    ├── jupiter/
-    ├── mars/
-    ├── moon/
-    ├── neptune/
-    ├── saturn/
-    └── uranus/
+ ├── earth/
+ ├── jupiter/
+ ├── mars/
+ ├── moon/
+ ├── neptune/
+ ├── saturn/
+ └── uranus/
+```
+</pre>
 
-## 👉2️⃣运行improved_training.py
+## 👉2️⃣improved_training.py
 
 运行后模型将开始进行训练
 
@@ -101,7 +103,7 @@ After running the script, the model will begin training
 
 코드를 실행하면 모델이 학습을 시작합니다
 
-## 👉3️⃣运行evaluate_model.py
+## 👉3️⃣evaluate_model.py
 
 进行模型评价阶段|Model evaluation phase|모델 평가 단계
 
